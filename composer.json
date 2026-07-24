@@ -34,6 +34,8 @@
         "drupal/field_group": "^4.0",
         "drupal/flexslider": "^3.0@alpha",
         "drupal/git_deploy": "^2.6",
+        "drupal/glightbox": "^1.0",
+        "drupal/glightbox_media_video": "^1.0",
         "drupal/google_tag": "^1.7",
         "drupal/highlightjs_input_filter": "^1.1",
         "drupal/insert_view": "^3.0",
