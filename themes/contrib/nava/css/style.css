@@ -2980,3 +2980,41 @@ hr.line-double {
   }
 }
 /* widescreen *//*# sourceMappingURL=style.css.map */
+/* .header .header-main .header-main-container .site-branding-region{
+  width:100%;
+  min-height: 150pt;
+  background: url("../images/bg_top_osdag.png") center / cover no-repeat;
+  padding: 10px;
+} */
+ /* .header .header-main .header-main-container .site-branding-region {
+  flex: 0 0 100%;
+  width: 100%;
+  aspect-ratio: 1084 / 177;
+  background: url("../images/bg_top_osdag.png") center / 100% 100% no-repeat;
+} */
+
+.header .site-branding-region {
+  flex: 0 0 100%;
+  width: 100%;
+  height: clamp(90px, 12vw, 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: url("../images/bg_top_osdag.png") center / 100% 100% no-repeat;
+}
+
+.header .site-branding-region .region-site-branding {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /********uncomment following line if want horizontally center***********/
+  /* justify-content: center; */
+}
+
+.header .site-branding-region .site-brand {
+  justify-content: center;
+}
+.header .site-branding-region .site-brand .site-name-slogan {
+  padding:0px 5px;
+}
